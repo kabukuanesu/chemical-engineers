@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Student Based Institute Of Chemical Engineers</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  
+
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="callto:+443003030266"><strong>CALL</strong>+263 78 719 3291</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="notice.html">notice</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="research.html">research</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="scholarship.html">SCHOLARSHIP</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">login</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">register</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light p-0">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item @@courses">
+              <a class="nav-link" href="courses.html"></a>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="events.html">EVENTS</a>
+            </li>
+            <li class="nav-item @@blog">
+              <a class="nav-link" href="blog.html">BLOG</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="teacher.html"></a>
+                <a class="dropdown-item" href="teacher-single.html"></a>
+                <a class="dropdown-item" href="notice.html">Notice</a>
+                <a class="dropdown-item" href="notice-single.html"></a>
+                <a class="dropdown-item" href="research.html"></a>
+                <a class="dropdown-item" href="scholarship.html"></a>
+                <a class="dropdown-item" href="course-single.html"></a>
+                <a class="dropdown-item" href="event-single.html"></a>
+                <a class="dropdown-item" href="blog-single.html"></a>
+              </div>
+            </li>
+            <li class="nav-item @@contact">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Register</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="login">
+                    <form action="#" class="row">
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Name">
+                        </div>
+                        <div class="col-12">
+                            <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email">
+                        </div>
+                        <div class="col-12">
+                            <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Password">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">join us</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Login</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="#" class="row">
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Phone">
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Name">
+                    </div>
+                    <div class="col-12">
+                        <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Password">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">LOGIN</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- hero slider -->
+<section class="hero-section overlay bg-cover" data-background="images/banner/banner-1.jpg">
+  <div class="container">
+    <div class="hero-slider">
+      <!-- slider item -->
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Your bright future is our mission</h1>
+            <p class="text-muted mb-4" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">Our mission is to advance the field of chemical engineering through innovation,collaboration and sustainable practices. 
+              We are committed to fostering excellence in research, education and proffessional development.
+            </p>
+            <a href="contact.html" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Apply now</a>
+          </div>
+        </div>
+      </div>
+      <!-- slider item -->
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="text-white" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">Your bright future is our mission</h1>
+            <p class="text-muted mb-4" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".4">By connnecting industry, academia and government we aim to drive technological advancement,solve 
+              complex challanges and create a lasting positive impact on global health, energy, materials and the environment.
+            </p>
+            <a href="contact.html" class="btn btn-primary" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".7">Apply now</a>
+          </div>
+        </div>
+      </div>
+      <!-- slider item -->
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="text-white" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Your bright future is our mission</h1>
+            <p class="text-muted mb-4" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".4">Together we will shape the future of chemical engineering for the bennefit 
+              of present and future generation.
+            </p>
+            <a href="contact.html" class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7">Apply now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /hero slider -->
+
+<!-- banner-feature -->
+<section class="bg-gray">
+  <div class="container-fluid p-0">
+    <div class="row no-gutters">
+      <div class="col-xl-4 col-lg-5 align-self-end">
+        <img class="img-fluid w-100" src="images/banner/banner-feature.png" alt="banner-feature">
+      </div>
+      <div class="col-xl-8 col-lg-7">
+        <div class="row feature-blocks bg-gray justify-content-between">
+          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+            <i class="ti-book mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+            <h3 class="mb-xl-4 mb-lg-3 mb-4">Get Involved</h3>
+            <p>We encourage you to get actively involved in SBICEZ. Whether you are interested in volunteering, contributing to our publication 
+              or organizing events, there are numerous opotunities for you to make a miningful impact.
+            </p>
+          </div>
+          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+            <i class="ti-blackboard mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+            <h3 class="mb-xl-4 mb-lg-3 mb-4">Our Notice Board</h3>
+            <p>Our notice board is your go to resource for important events and opotunities within the organisation.</p>
+          </div>
+          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+            <i class="ti-agenda mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+            <h3 class="mb-xl-4 mb-lg-3 mb-4">Membership Benefits</h3>
+            <p>As a member of SBICEZ, you gain exclusive access to a range of bennefits designed to support your proffesional growth. 
+              Join us today and unlock a world of possibilities!!.Other bennefits are as follows. To 
+              assist in finding chemical engineering attachment places, to assist in finding chemical 
+              engineering jobs and opportunities, to help in researvh, exposure to the industry and to evaluate 
+              projects before submitting them to their  institutes.
+            </p>
+          </div>
+          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+            <i class="ti-write mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+            <h3 class="mb-xl-4 mb-lg-3 mb-4">Overview</h3>
+            <p>Our main aims are to bring all chemical engineering students in Zimbabwe building a 
+              relationship among them and to create connections between chemical engineering students advance 
+              profesional engineers already in the field.
+              Thank you for visiting our website. We look foward to connecting with you and advancing the field of chemical engineering together.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /banner-feature -->
+
+<!-- events -->
+<section class="section bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">Our Executive</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <div>
+           <!-- <a href="about.html" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">see all</a>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+  <!-- event -->
+  <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+    <div class="card border-0 rounded-0 hover-shadow">
+      <div class="card-img position-relative">
+        <img class="card-img-top rounded-0" src="images/teachers/pic21.jpg" alt="event thumb">
+        
+      </div>
+      <div class="card-body">
+        <!-- location -->
+        
+        <a href="#"><h4 class="card-title">The President : Ishmael Muchechesi</h4></a>
+      </div>
+    </div>
+  </div>
+  <!-- event -->
+  <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+    <div class="card border-0 rounded-0 hover-shadow">
+      <div class="card-img position-relative">
+        <img class="card-img-top rounded-0" src="images/teachers/pic11.jpg" alt="event thumb">
+        
+      </div>
+      <div class="card-body">
+        <!-- location -->
+        <!--<p><i class="ti-location-pin text-primary mr-2"></i></p>-->
+        <a href=><h4 class="card-title">The Vice President: Tanatswa Shambira.</h4></a>
+      </div>
+    </div>
+  </div>
+  <!-- event -->
+  <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+    <div class="card border-0 rounded-0 hover-shadow">
+      <div class="card-img position-relative">
+        <img class="card-img-top rounded-0" src="images/teachers/pic22.jpg" alt="event thumb">
+        <div class="card-date"><span></span><br></div>
+      </div>
+      <div class="card-body">
+        <!-- location -->
+        
+        <a href="event-single.html"><h4 class="card-title">Tinotenda Marufu: Secretary Of Information</h4></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- teachers -->
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <h2 class="section-title"></h2>
+      </div>
+      <!-- teacher -->
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        <div class="card border-0 rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/teachers/pic15.jpg" alt="teacher">
+          <div class="card-body">
+            <a href="#">
+              <h4 class="card-title">Secretary General : Hamilton Chingovo</h4>
+            </a>
+            <p>Teacher</p>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- teacher -->
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        <div class="card border-0 rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/teachers/pic24.jpg" alt="teacher">
+          <div class="card-body">
+            <a href="#">
+              <h4 class="card-title">Grace Katikiti: Girl Child Represantative</h4>
+            </a>
+            
+            <ul class="list-inline">
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- teacher -->
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        <div class="card border-0 rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/teachers/pic16.jpg" alt="teacher">
+          <div class="card-body">
+            <a href="">
+              <h4 class="card-title">Connie Mushayabvudzi:Girl Child Represantative</h4>
+            </a>
+            
+            <ul class="list-inline">
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /teachers -->
+
+<!-- blog -->
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title"></h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+  <!-- blog post -->
+  <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+    <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/Teachers/pic17.jpg" alt="Post thumb">
+      <div class="card-body">
+        <!-- post meta -->
+        <ul class="list-inline mb-3">
+          <!-- post date -->
+          <li class="list-inline-item mr-3 ml-0"></li>
+          <!-- author -->
+          <li class="list-inline-item mr-3 ml-0"></li>
+        </ul>
+        <a href="">
+          <h4 class="card-title">Wadzanai Chitondwe: Secretary of Information for the girl child.</h4>
+        </a>
+        <p class="card-text"></p>
+        
+      </div>
+    </div>
+  </article>
+  <!-- blog post -->
+  <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+    <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/teachers/pic18.jpg" alt="Post thumb">
+      <div class="card-body">
+        <!-- post meta -->
+        <ul class="list-inline mb-3">
+          <!-- post date -->
+          <li class="list-inline-item mr-3 ml-0"></li>
+          <!-- author -->
+          <li class="list-inline-item mr-3 ml-0"></li>
+        </ul>
+        <a href="">
+          <h4 class="card-title">Administrator:Craig Madzutu</h4>
+        </a>
+        <p class="card-text"></p>
+        
+      </div>
+    </div>
+  </article>
+  <!-- blog post -->
+  <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+    <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/teachers/pic20.jpg" alt="Post thumb">
+      <div class="card-body">
+        <!-- post meta -->
+        <ul class="list-inline mb-3">
+          <!-- post date -->
+          <li class="list-inline-item mr-3 ml-0"></li>
+          <!-- author -->
+          <li class="list-inline-item mr-3 ml-0"></li>
+        </ul>
+        <a href="">
+          <h4 class="card-title">Fadzaiishe Mushangwe:Event Planning</h4>
+        </a>
+        <p class="card-text"></p>
+        
+      </div>
+    </div>
+  </article>
+</div>
+  </div>
+</section>
+<!-- /blog -->
+
+<!-- blog -->
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title"></h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+<!-- blog post -->
+<article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+  <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+    <img class="card-img-top rounded-0" src="images/Teachers/pic25.jpg" alt="Post thumb">
+    <div class="card-body">
+      <!-- post meta -->
+      <ul class="list-inline mb-3">
+        <!-- post date -->
+        <li class="list-inline-item mr-3 ml-0"></li>
+        <!-- author -->
+        <li class="list-inline-item mr-3 ml-0"></li>
+      </ul>
+      <a href="">
+        <h4 class="card-title">Secretary Of Finance: Almighty Mutsvairo.</h4>
+      </a>
+      <p class="card-text"></p>
+      
+    </div>
+  </div>
+</article>
+<!-- blog post -->
+<article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+  <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+    <img class="card-img-top rounded-0" src="images/teachers/pic14.jpg" alt="Post thumb">
+    <div class="card-body">
+      <!-- post meta -->
+      <ul class="list-inline mb-3">
+        <!-- post date -->
+        <li class="list-inline-item mr-3 ml-0"></li>
+        <!-- author -->
+        <li class="list-inline-item mr-3 ml-0"></li>
+      </ul>
+      <a href="">
+        <h4 class="card-title">Diana Offman:Event Planner</h4>
+      </a>
+      <p class="card-text"></p>
+      
+    </div>
+  </div>
+</article>
+<!-- blog post -->
+<article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+  <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+    <img class="card-img-top rounded-0" src="images/teachers/pic28.jpg" alt="Post thumb">
+    <div class="card-body">
+      <!-- post meta -->
+      <ul class="list-inline mb-3">
+        <!-- post date -->
+        <li class="list-inline-item mr-3 ml-0"></li>
+        <!-- author -->
+        <li class="list-inline-item mr-3 ml-0"></li>
+      </ul>
+      <a href="">
+        <h4 class="card-title">Emily Gozhera: Event Planner</h4>
+      </a>
+      <p class="card-text"></p>
+      
+    </div>
+  </div>
+</article>
+</div>
+</div>
+</section>
+<!-- /blog -->
+
+
+<!-- blog -->
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title"></h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+<!-- blog post -->
+<article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+  <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+    <img class="card-img-top rounded-0" src="images/Teachers/pic29.jpg" alt="Post thumb">
+    <div class="card-body">
+      <!-- post meta -->
+      <ul class="list-inline mb-3">
+        <!-- post date -->
+        <li class="list-inline-item mr-3 ml-0"></li>
+        <!-- author -->
+        <li class="list-inline-item mr-3 ml-0"></li>
+      </ul>
+      <a href="">
+        <h4 class="card-title">Vice Coordinator:Christabel Rwatizha.</h4>
+      </a>
+      <p class="card-text"></p>
+      
+    </div>
+  </div>
+</article>
+<!-- blog post -->
+<article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+  <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+    <img class="card-img-top rounded-0" src="images/teachers/pic27.jpg" alt="Post thumb">
+    <div class="card-body">
+      <!-- post meta -->
+      <ul class="list-inline mb-3">
+        <!-- post date -->
+        <li class="list-inline-item mr-3 ml-0"></li>
+        <!-- author -->
+        <li class="list-inline-item mr-3 ml-0"></li>
+      </ul>
+      <a href="">
+        <h4 class="card-title">Tapiwa :Transport Coordinator</h4>
+      </a>
+      <p class="card-text"></p>
+      
+    </div>
+  </div>
+</article>
+<!-- blog post -->
+<article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+  <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+    <img class="card-img-top rounded-0" src="images/teachers/pic30.jpg" alt="Post thumb">
+    <div class="card-body">
+      <!-- post meta -->
+      <ul class="list-inline mb-3">
+        <!-- post date -->
+        <li class="list-inline-item mr-3 ml-0"></li>
+        <!-- author -->
+        <li class="list-inline-item mr-3 ml-0"></li>
+      </ul>
+      <a href="">
+        <h4 class="card-title">Chief Coordinator: Justice Dzambacheka</h4>
+      </a>
+      <p class="card-text"></p>
+      
+    </div>
+  </div>
+</article>
+</div>
+</div>
+</section>
+<!-- /blog -->
+<!-- footer -->
+<footer>
+  <!-- newsletter -->
+  <div class="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
+          <h3 class="text-white">join now</h3>
+          <form action="email.php">
+            <div class="input-wrapper">
+              <input type="email" class="form-control border-0" id="newsletter" name="newsletter" placeholder="Enter Your Email...">
+              <button type="submit" value="send" class="btn btn-primary">Join</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer content -->
+  <div class="footer bg-footer section border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+          <!-- logo -->
+          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo.png" alt="logo"></a>
+          <ul class="list-unstyled">
+            <li class="mb-2">Harare,Zimbabwe</li>
+            <li class="mb-2">+263 78 500 4950</li>
+            <li class="mb-2"></li>
+            <li class="mb-2">sbicez09@gmail.com</li>
+          </ul>
+        </div>
+        <!-- company -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">COMPANY</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="about.html">About Us</a></li>
+            <li class="mb-3"><a class="text-color" href="teacher.html"></a></li>
+            <li class="mb-3"><a class="text-color" href="contact.html">Contact</a></li>
+            <li class="mb-3"><a class="text-color" href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <!-- links -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">LINKS</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="#"></a></li>
+            <li class="mb-3"><a class="text-color" href="#">Events</a></li>
+            <li class="mb-3"><a class="text-color" href="#l">Gallary</a></li>
+            <li class="mb-3"><a class="text-color" href="#">FAQs</a></li>
+          </ul>
+        </div>
+        <!-- support -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">SUPPORT</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="#">Forums</a></li>
+            <li class="mb-3"><a class="text-color" href="#">Documentation</a></li>
+            <li class="mb-3"><a class="text-color" href="#">Language</a></li>
+            <li class="mb-3"><a class="text-color" href="#">Release Status</a></li>
+          </ul>
+        </div>
+        <!-- support -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5"></h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="#"></a></li>
+            <li class="mb-3"><a class="text-color" href="#"></a></li>
+            <li class="mb-3"><a class="text-color" href="#"></a></li>
+            <li class="mb-3"><a class="text-color" href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- copyright -->
+  <div class="copyright py-4 bg-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 text-sm-left text-center">
+          <p class="mb-0">
+            <script>
+              var CurrentYear = new Date().getFullYear()
+              document.write(CurrentYear)
+            </script> 
+            ©  <a href="https://themefisher.com"></a></p> . 
+        </div>
+        <div class="col-sm-5 text-sm-right text-center">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-facebook text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-twitter-alt text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-instagram text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-dribbble text-primary"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- mixitup filter -->
+<script src="plugins/mixitup/mixitup.min.js"></script>
+<!-- google map -->
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
+<script src="plugins/google-map/gmap.js"></script>
+-->
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

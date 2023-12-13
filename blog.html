@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Student Based Instute Of Chemical Engineers Zimbabwe</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  
+
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="callto:+443003030266"><strong>CALL</strong> +263 78 719 3291</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="notice.html">notice</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="research.html">research</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="scholarship.html">SCHOLARSHIP</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">login</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">register</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light p-0">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item @@home">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item @@courses">
+              <a class="nav-link" href="courses.html"></a>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="events.html">EVENTS</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="blog.html">BLOG</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="teacher.html"></a>
+                <a class="dropdown-item" href="teacher-single.html"></a>
+                <a class="dropdown-item" href="notice.html"></a>
+                <a class="dropdown-item" href="notice-single.html"></a>
+                <a class="dropdown-item" href="research.html"></a>
+                <a class="dropdown-item" href="scholarship.html"></a>
+                <a class="dropdown-item" href="course-single.html"></a>
+                <a class="dropdown-item" href="event-single.html"></a>
+                <a class="dropdown-item" href="blog-single.html"></a>
+              </div>
+            </li>
+            <li class="nav-item @@contact">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Register</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="login">
+                    <form action="#" class="row">
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Name">
+                        </div>
+                        <div class="col-12">
+                            <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email">
+                        </div>
+                        <div class="col-12">
+                            <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Password">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">JOIN US</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Login</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="#" class="row">
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Phone">
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Name">
+                    </div>
+                    <div class="col-12">
+                        <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Password">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">LOGIN</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- page title -->
+<section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="@@page-link">Our Blog</a></li>
+          <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
+        </ul>
+        <p class="text-lighten">Welcome to our Blog, where we delve into the facisinating world of 
+          chemical engineering and explore the groundbreaking advancements that are shaping our future 
+          .We are committed to driving innovation and sustainability in the industry.We will highlight 
+        some key areas that we will want to look into as our organisation progress.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+<!-- blogs -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <!-- blog post -->
+      <article class="col-lg-4 col-sm-6 mb-5">
+        <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/blog/post-1.jpg" alt="Post thumb">
+          <div class="card-body">
+            <!-- post meta -->
+            <ul class="list-inline mb-3">
+              <!-- post date -->
+              <li class="list-inline-item mr-3 ml-0"></li>
+              <!-- author -->
+              <li class="list-inline-item mr-3 ml-0"></li>
+            </ul>
+            <a href="">
+              <h4 class="card-title">1. Water Treatment and Resource Mnagement.</h4>
+            </a>
+            <p class="card-text">Water treatment is a pressing global issue.
+              Our organisation is dedicated to finding sustainable and cost effective solutions for 
+              water treatment, purification and desalination. We aim to aim to ensure the availability of 
+              clean water resources for communities around the world.
+            </p>
+            <a href="blog-single.html" class="btn btn-primary btn-sm"></a>
+          </div>
+        </div>
+      </article>
+      <!-- blog post -->
+      <article class="col-lg-4 col-sm-6 mb-5">
+        <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/blog/post-2.jpg" alt="Post thumb">
+          <div class="card-body">
+            <!-- post meta -->
+            <ul class="list-inline mb-3">
+              <!-- post date -->
+              <li class="list-inline-item mr-3 ml-0"></li>
+              <!-- author -->
+              <li class="list-inline-item mr-3 ml-0"></li>
+            </ul>
+            <a href="">
+              <h4 class="card-title">2. Alternative Energy Sources</h4>
+            </a>
+            <p class="card-text">The transition to low-carbon  economy is dependent on finding Alternative 
+              energy sources the replace fossil fuels.Through our collaborative efforts with academia and 
+              industry partners, we are actively contributing to the development of innovative solutions 
+              that enable the efficient utilization and intergration of alternative energy sources into 
+              our energy infrastructure.
+            </p>
+            <a href="blog-single.html" class="btn btn-primary btn-sm"></a>
+          </div>
+        </div>
+      </article>
+      <!-- blog post -->
+      <article class="col-lg-4 col-sm-6 mb-5">
+        <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/blog/post-3.jpg" alt="Post thumb">
+          <div class="card-body">
+            <!-- post meta -->
+            <ul class="list-inline mb-3">
+              <!-- post date -->
+              <li class="list-inline-item mr-3 ml-0"></li>
+              <!-- author -->
+              <li class="list-inline-item mr-3 ml-0"></li>
+            </ul>
+            <a href="">
+              <h4 class="card-title">Sustainable Process Design.</h4>
+            </a>
+            <p class="card-text">As the world increasingly recognizes the importance of minimizing 
+              environmental impact , chemical engineers play a crucial role in developing processes that reduce 
+              energy consumption, waste generation, and greenhouse gas emisions. Our organisation is at the  
+              forefront of this endevour, investing in research and development to create cleaner and more efficient 
+              processes that minimize the carbon footprint while maximizing resource utilization.
+            </p>
+            <a href="" class="btn btn-primary btn-sm"></a>
+          </div>
+        </div>
+      </article>
+      <!-- blog post -->
+      <article class="col-lg-4 col-sm-6 mb-5">
+        <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/blog/s1.jpeg" alt="Post thumb">
+          <div class="card-body">
+            <!-- post meta -->
+            <ul class="list-inline mb-3">
+              <!-- post date -->
+              <li class="list-inline-item mr-3 ml-0"></li>
+              <!-- author -->
+              <li class="list-inline-item mr-3 ml-0"></li>
+            </ul>
+            <a href="">
+              <h4 class="card-title">Circular Economy and Waste Management</h4>
+            </a>
+            <p class="card-text">The concept of circular economy , where waste is minimized, and resources 
+              are recycled or repurposed, is gaining traction.Our organization is actively involved in developing 
+              innovative waste management technologies and processes that facilitate the transition to a 
+              circular economy, reducing reliance on finite resources and mitigating the environmental 
+              impact of waste generation.
+            </p>
+            <a href="blog-single.html" class="btn btn-primary btn-sm"></a>
+          </div>
+        </div>
+      </article>
+      <!-- blog post -->
+      <article class="col-lg-4 col-sm-6 mb-5">
+        <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/blog/post-2.jpg" alt="Post thumb">
+          <div class="card-body">
+            <!-- post meta -->
+            <ul class="list-inline mb-3">
+              <!-- post date -->
+              <li class="list-inline-item mr-3 ml-0"></li>
+              <!-- author -->
+              <li class="list-inline-item mr-3 ml-0"></li>
+            </ul>
+            <a href="">
+              <h4 class="card-title">Process Safety and Risk Management</h4>
+            </a>
+            <p class="card-text">Ensuring the safety of chemical processes and mitigating potential
+              risks is paramount in the field of chemical engineering.Our organization places great importance 
+              on process safety and risk management, striving to develop and implement robust safety 
+              protocols , risk assessment methodologies, and process optimization techniques.By prioritizing
+              safety and working closey with regulatory bodies, we aim to create a culture of safety 
+              excellence within the industry. 
+            </p>
+            <a href="blog-single.html" class="btn btn-primary btn-sm"></a>
+          </div>
+        </div>
+      </article>
+      <!-- blog post -->
+      <article class="col-lg-4 col-sm-6 mb-5">
+        <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/blog/s2.jpeg" alt="Post thumb">
+          <div class="card-body">
+            <!-- post meta -->
+            <ul class="list-inline mb-3">
+              <!-- post date -->
+              <li class="list-inline-item mr-3 ml-0"></li>
+              <!-- author -->
+              <li class="list-inline-item mr-3 ml-0"></li>
+            </ul>
+            <a href="">
+              <h4 class="card-title">Conclusion</h4>
+            </a>
+            <p class="card-text">Chemical engineering is a dynamic field that holds immense pttential for 
+              driving sustainability, innovation, and societal progress. Our organization is committed 
+              to pushing the boundaries of chemical engineering, working towards a future where clean 
+              efficient and sustainable processes are the nrm. By addressing global challanges such as 
+              sustainable process design, alternative energy sources, water treatment, circular economy 
+              process safety, we aim to make a lasting positive impact on the world . Join us on this 
+              exciting journey as we pioneer innovation for a sustainable future. Together we can shape 
+              a better world through chemical engineering.
+            </p>
+            <a href="blog-single.html" class="btn btn-primary btn-sm"></a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<!-- /blogs -->
+
+<!-- footer -->
+<footer>
+  <!-- newsletter -->
+  <div class="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
+          <h3 class="text-white">join Now</h3>
+          <form action="#">
+            <div class="input-wrapper">
+              <input type="email" class="form-control border-0" id="newsletter" name="newsletter" placeholder="Enter Your Email...">
+              <button type="submit" value="send" class="btn btn-primary">Join</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer content -->
+  <div class="footer bg-footer section border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+          <!-- logo -->
+          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo.png" alt="logo"></a>
+          <ul class="list-unstyled">
+            <li class="mb-2">Harare Zimbabwe</li>
+            <li class="mb-2">+263 78 719 3291</li>
+            <li class="mb-2">+263 78 797 0792</li>
+            <li class="mb-2">sbicez09@gmail.com</li>
+          </ul>
+        </div>
+        <!-- company -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">Organization</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="about.html">About Us</a></li>
+            <li class="mb-3"><a class="text-color" href="teacher.html">Our Teacher</a></li>
+            <li class="mb-3"><a class="text-color" href="contact.html">Contact</a></li>
+            <li class="mb-3"><a class="text-color" href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <!-- links -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">LINKS</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="courses.html"></a></li>
+            <li class="mb-3"><a class="text-color" href="event.html">Events</a></li>
+            <li class="mb-3"><a class="text-color" href="gallary.html">Gallary</a></li>
+            <li class="mb-3"><a class="text-color" href="faqs.html">FAQs</a></li>
+          </ul>
+        </div>
+        <!-- support -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">SUPPORT</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="#">Forums</a></li>
+            <li class="mb-3"><a class="text-color" href="#">Documentation</a></li>
+            <li class="mb-3"><a class="text-color" href="#">Language</a></li>
+            <li class="mb-3"><a class="text-color" href="#">Release Status</a></li>
+          </ul>
+        </div>
+        <!-- support -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5"></h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="#"></a></li>
+            <li class="mb-3"><a class="text-color" href="#"></a></li>
+            <li class="mb-3"><a class="text-color" href="#"></a></li>
+            <li class="mb-3"><a class="text-color" href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- copyright -->
+  <div class="copyright py-4 bg-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 text-sm-left text-center">
+          <p class="mb-0">
+            <script>
+              var CurrentYear = new Date().getFullYear()
+              document.write(CurrentYear)
+            </script> 
+            <a href="https://themefisher.com"></a></p>
+        </div>
+        <div class="col-sm-5 text-sm-right text-center">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.facebook.com/themefisher"><i class="ti-facebook text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.twitter.com/themefisher"><i class="ti-twitter-alt text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-instagram text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://dribbble.com/themefisher"><i class="ti-dribbble text-primary"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- mixitup filter -->
+<script src="plugins/mixitup/mixitup.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
